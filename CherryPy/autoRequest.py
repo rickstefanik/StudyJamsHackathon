@@ -3,5 +3,5 @@
 import requests
 import json
 
-URL = "http://a2ff62f7.ngrok.io/"
-print(requests.post(URL, json.dumps({"text": "Study Jams is awesome.  Study Jams is awesome."})).content)
+URL = "https://0a2aa408.ngrok.io"
+print(requests.post(URL, json.dumps({"text": "Study Jams is the best application for memorization."})).content)

@@ -7,7 +7,7 @@ from django.views.decorators.cache import never_cache
 @never_cache
 def index(request):
 
-    URL = "8d9ee4d1.ngrok.io/"
+    URL = "0a2aa408.ngrok.io/"
     if 'textToSpeak' in request.GET:
         print("I'm in the GET")
         sayThis = request.GET.get('textToSpeak')

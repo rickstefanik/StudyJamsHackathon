@@ -57,7 +57,8 @@ class MelodyController:
     def __init__(self):
         self.text_to_speech = TextToSpeechV1(
             #iam_apikey='nBVvz1-p4Q3F0rF_L8c0UmCfirPNfIKaVO32prppKCzR',
-            iam_apikey='UvuwivzdQoLY7xOEzLVvPKAmsK7-iprq2u1T1Q2B81mW',
+            #iam_apikey='UvuwivzdQoLY7xOEzLVvPKAmsK7-iprq2u1T1Q2B81mW',
+            iam_apikey='4L-eAWw0E68Ym8cv9xd_PLVsvi6GIjvXWNseM2qjW-kb',
             url='https://stream.watsonplatform.net/text-to-speech/api'
         )
         self.localDir = os.path.dirname(__file__)
